@@ -465,6 +465,9 @@ a:hover { color: var(--blue-bright); }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
 
+/* keep short tokens like model names on one line */
+.nowrap { white-space: nowrap; }
+
 /* figure text inside inline SVGs */
 .mx-var { font-family: var(--font-roman); font-style: italic; }
 .mx-roman { font-family: var(--font-roman); }
